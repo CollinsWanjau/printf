@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdarg.h>
 
@@ -60,14 +61,7 @@ int _printf(const char *fmt, ...)
   vprintk(fmt, args);
 
   va_end(args);
-}
-
-int main()
-{
-  void *pointer_to_main = (void *)main;
-
-  _printf("Print a char: %c. Done\n", 'H');
-  _printf("Print a string: %s. Done\n", "Hello world");
 
   return (0);
 }
+
