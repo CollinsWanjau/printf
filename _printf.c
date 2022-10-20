@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdarg.h>
 
 /**
  * vprintk - print formatted data from variable args
